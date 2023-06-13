@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(23, 23, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.login_box{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 174, 174);
+}
+.button_login{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(14, 14, 172);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.account_singnup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.fac{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(9, 9, 119);
+    color: white;
+    cursor: pointer;
+}
+
+.google{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.signup_box{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 15px;
+    text-align: center;
+     padding: 10px; 
+     display: none ;
+    }
+    .inputs_box > input {
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 13px;
+        border: 1px solid rgb(195, 191, 191);
+    }
+    .sig{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(34, 34, 151);
+        color: white;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    .log{
+        display: flex;
+        justify-content: center
+    }
+    .fac2{
+        width: 100%;
+        height: 30px;
+        background-color: rgb(12, 12, 126);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .google2{
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    
+    }
+    span{
+        color: red;
+        visibility: hidden;
+    }
